@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { auth, db } from "../components/firebase";
 import { setDoc, doc } from "firebase/firestore";
 import { Link, useNavigate } from "react-router-dom";
- // import signup from "../assets/images/signup.svg";
+import signup from "../assets/images/signup.svg";
 
 const Signup = () => {
   const [errorMessage, setErrorMessage] = useState("");

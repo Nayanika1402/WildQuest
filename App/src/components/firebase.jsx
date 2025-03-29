@@ -8,7 +8,7 @@ const firebaseConfig = {
   apiKey: "AIzaSyAQ1fU4aOzjPwvI3Re1-50dwwhQ4TmP4eY",
   authDomain: "wildquest-55cfb.firebaseapp.com",
   projectId: "wildquest-55cfb",
-  storageBucket: "wildquest-55cfb.appspot.com",
+  storageBucket: "wildquest-55cfb.firebasestorage.app",
   messagingSenderId: "1011095437853",
   appId: "1:1011095437853:web:73be26eb5d0f95da847cf4"
 };
