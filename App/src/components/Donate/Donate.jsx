@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import bgImage from "../../assets/images/donation-bg.jpg"; // Replace with your actual image path
+import bgImage from "../../assets/images/donation-bg.jpg"; 
 
 const Donate = () => {
   const [currency, setCurrency] = useState("INR");
@@ -28,7 +28,7 @@ const Donate = () => {
       {/* Left Section - Heading and Form */}
       <div className="w-full lg:w-1/2 p-6">
         <h1 className="text-4xl font-bold text-green-700 mb-4">Adopt and Donate</h1>
-        <p className="text-gray-100 max-w-lg text-lg mb-6">
+        <p className="text-black font-bold max-w-lg text-lg mb-6">
           Your donations and adoptions help us protect and care for endangered wildlife.
           Choose an animal to support and contribute to their well-being today.
         </p>
