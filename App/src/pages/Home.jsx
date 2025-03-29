@@ -13,7 +13,6 @@ import avatarIcon from "../assets/images/avatar-img.png";
 import {Link} from 'react-router-dom';
 import {BsArrowRight} from 'react-icons/bs';
 import About from '../components/About/About';
-import ProfessionalList from '../components/Professional/ProfessionalList';
 import FaqList from '../components/Faq/FaqList';
 import Testimonial from '../components/Testimonial/Testimonial';
 
@@ -231,27 +230,12 @@ const Home = ({ setIsAuthenticated }) => {
   </div>
 </section>
 {/* ============ feature section end ============== */}
-{/* ============ Our Professionals ============== */}
-
-<section>
-  <div className='container'>
-    <div className='xl:w-[600px] mx-auto'>
-      <h2 className='heading text-center'>Some Critically Endangered Species🦌</h2>
-      <p className='text_para text-center'>
-      According to the IUCN Red List, these species are declining rapidly due to habitat loss, 
-      poaching, climate change, and human activities.
-      </p>
-    </div>
-    <ProfessionalList />
-  </div>
-</section>
-{/* ============ Our Professionals ============== */}
 {/* ============ faq section start ================= */}
 <section>
   <div className='container'>
     <div className='flex justify-between gap-[50px] lg:gap-0'>
       <div className='w-1/2 hidden md:block'>
-      <img src={faqImg} alt="" className='h-[500px] w-[500px]' />
+      <img src={faqImg} alt="" className='h-[600px] w-[500px]' />
       </div>
       <div className='w-full md:w-1/2'>
       <h2 className='heading'>

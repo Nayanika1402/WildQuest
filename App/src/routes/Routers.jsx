@@ -11,6 +11,8 @@ import Contact from "../pages/Contact";
 import Professionals from "../pages/Professionals/Professionals";
 import ProfessionalDetails from "../pages/Professionals/ProfessionalDetails";
 import Donate from "../components/Donate/Donate";
+import Profile from "../pages/Profile";
+import Adopt from "../components/Adopt/Adopt";
 
 function Routers() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
@@ -31,6 +33,8 @@ function Routers() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/services" element={<Services />} />
         <Route path="/donate" element={<Donate />} />
+        <Route path="/profile" element={<Profile />} />
+        <Route path="/adopt" element={<Adopt />} />
       </Routes>
       
       <ToastContainer />

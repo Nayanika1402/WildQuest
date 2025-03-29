@@ -19,4 +19,9 @@ export const faqs = [
     content:
       "Absolutely! WildQuest encourages wildlife enthusiasts, conservationists, and researchers to contribute articles and stories. You can submit your content through the platform, and after review, it may be featured on the website to educate and inspire others.",
   },
+  {
+    question: "Can I post blogs about wildlife in you website?",
+    content:
+      "Actually we are working on the Blog Section of the website,so soon you will be able to write blogs which will help raising concerns for wildlife conservation.",
+  },
 ];

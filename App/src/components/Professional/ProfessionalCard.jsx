@@ -1,5 +1,5 @@
 import React from 'react';
-import starIcon from '../../assets/images/Star.png';
+
 import {Link } from "react-router-dom";
 import { BsArrowRight } from "react-icons/bs";
 

@@ -1,18 +1,18 @@
-import bustard from "../images/extinct1.png";
+import tiger from "../images/extinct1.jpg";
 import gharial from "../images/extinct2.jpg";
 import redpanda from "../images/extinct3.jpg";
-import bear from "../images/extinct4.webp";
-import pangolin from "../images/extinct5.webp";
+import bear from "../images/extinct5.jpg";
+import bison from "../images/extinct4.jpg";
 import owl from "../images/extinct6.jpg";
 
 export const professional = [
   {
     id: "01",
-    name: "Great Indian Bustard",
-    scientific: "Ardeotis nigriceps",
-    photo: bustard,
-    totalLeft: 150,
-    organization: "Sunset Electric Services, Norway.",
+    name: "Royal Bengal Tiger",
+    scientific: "Felis tigris",
+    photo: tiger,
+    totalLeft: 100,
+    organization: "Sundarbans, West Bengal",
   },
   {
     id: "02",
@@ -20,38 +20,38 @@ export const professional = [
     scientific: "Gavialis gangeticus",
     photo: gharial,
     totalLeft: 200,
-    organization: "Mountain View Agency, Canada.",
+    organization: "Kaziranga National Park, Assam",
   },
   {
     id: "03",
-    name: " Red Panda",
-    scientific: "Ailurus fulgens",
+    name: " One Horned Rhino",
+    scientific: "Rhinoceros unicornis",
     photo: redpanda,
-    totalLeft: 2500,
-    organization: "Adora Home Cleaning Services , Sylhet.",
+    totalLeft: 1855,
+    organization: "Kaziranga National Park, Assam",
   },
   {
   id: "04",
-    name: "Himalayan Brown Bear",
-    scientific: "Ursus arctos isabellinus",
+    name: "Asiatic Lion",
+    scientific: "Felis leo persicus",
     photo: bear,
-    totalLeft: 500,
-    organization: "EliteTech Services, Texas.",
+    totalLeft: 300,
+    organization: "Gir National Park and Wildlife Sanctuary, Gujarat",
   },
   {
     id: "05",
-    name: "Indian Pangolin",
-    scientific: "Manis crassicaudata",
-    photo: pangolin,
+    name: "Indian Bison (Gaur)",
+    scientific: "Bos gaurus",
+    photo: bison,
     totalLeft: 800,
-    organization: "Brush & Hue Painting Co., Canada.",
+    organization: "Palamau Tiger Reserve, Jharkhand",
   },
   {
     id: "06",
-    name: "Forest Owlet",
-    scientific: "Heteroglaux blewitti",
+    name: "Snow Leopard",
+    scientific: "Felis uncia",
     photo: owl,
-    totalLeft: 250,
-    organization: "TimberMaster Carpentry , Seattle.",
+    totalLeft: 200,
+    organization: "Hemis National Park, Ladakh",
   },
 ];
