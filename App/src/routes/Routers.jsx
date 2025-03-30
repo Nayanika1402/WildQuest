@@ -13,6 +13,7 @@ import ProfessionalDetails from "../pages/Professionals/ProfessionalDetails";
 import Donate from "../components/Donate/Donate";
 import Profile from "../pages/Profile";
 import Adopt from "../components/Adopt/Adopt";
+import Quiz from "../components/Quiz/Quiz";
 
 function Routers() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
@@ -35,6 +36,7 @@ function Routers() {
         <Route path="/donate" element={<Donate />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/adopt" element={<Adopt />} />
+        <Route path="/quiz" element={<Quiz />} />
       </Routes>
       
       <ToastContainer />

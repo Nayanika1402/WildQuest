@@ -103,7 +103,7 @@ const Profile = () => {
       <ProfileSidebar>
         <ProfilePic>W</ProfilePic>
         <h2>User’s Profile</h2>
-        <p>woormee912@gmail.com</p>
+        <p>susmitagorai56@gmail.com</p>
         <SectionBox>
           <h3>Tags</h3>
           <TagsContainer>

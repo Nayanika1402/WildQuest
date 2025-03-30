@@ -8,10 +8,9 @@ import logo from "../../assets/images/logo.png";
 
 const navLinks = [
   { path: "/home", display: "Home" },
-  { path: "/professionals", display: "Quizzes" },
-  { path: "/", display: "Games" },
+  { path: "/quiz", display: "Quizzes" },
+  { path: "/games", display: "Games" },
   { path: "/adopt", display: "Adoption" },
-  { path: "/blog", display: "Blogs" },
   { path: "/contact", display: "Contact Us" },
 ];
 
