@@ -9,7 +9,7 @@ import logo from "../../assets/images/logo.png";
 const navLinks = [
   { path: "/home", display: "Home" },
   { path: "/quiz", display: "Quizzes" },
-  { path: "/services", display: "Games" },
+  { path: "/game", display: "Games" },
   { path: "/adopt", display: "Adoption" },
   { path: "/blog", display: "Blogs" },
   { path: "/contact", display: "Contact Us" },

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 import bgImage from "../../assets/images/donation-bg.jpg"; 
 
 const Donate = () => {
@@ -135,9 +136,11 @@ const Donate = () => {
           </div>
 
           {/* Submit Button */}
-          <button className="w-full mt-4 bg-green-700 hover:bg-green-800 text-white text-lg p-3 rounded-lg">
-            Donate {currency} {customAmount || amount}
-          </button>
+          <Link to="/proposal">
+              <button className="w-full mt-4 bg-green-700 hover:bg-green-800 text-white text-lg p-3 rounded-lg">
+                Submit Proposal
+              </button>
+            </Link>
         </div>
       </div>
     </div>

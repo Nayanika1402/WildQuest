@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@jaredreisinger/react-crossword": "^5.2.0",
     "firebase": "^11.5.0",
     "framer-motion": "^12.6.2",
     "lucide-react": "^0.484.0",
