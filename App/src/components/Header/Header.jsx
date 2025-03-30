@@ -8,7 +8,7 @@ import logo from "../../assets/images/logo.png";
 
 const navLinks = [
   { path: "/home", display: "Home" },
-  { path: "/professionals", display: "Quizzes" },
+  { path: "/quiz", display: "Quizzes" },
   { path: "/services", display: "Games" },
   { path: "/adopt", display: "Adoption" },
   { path: "/blog", display: "Blogs" },
@@ -110,11 +110,13 @@ const Header = () => {
 
           {user && (
             <button
-              onClick={handleLogout}
-              className="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-700 transition"
-            >
-              Logout
-            </button>
+            onClick={handleLogout}
+            className="bg-red-500 text-white px-5 py-3 rounded-full hover:bg-red-700 transition text-sm"
+          >
+            Logout
+          </button>
+          
+          
           )}
 
           <button onClick={toggleTheme} className="bg-transparent text-[20px]">

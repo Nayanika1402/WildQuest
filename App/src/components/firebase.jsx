@@ -16,7 +16,7 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 
-// ✅ Always pass `app` when initializing Firebase services
+// ✅ Always pass app when initializing Firebase services
 export const auth = getAuth(app); 
 export const db = getFirestore(app);
 

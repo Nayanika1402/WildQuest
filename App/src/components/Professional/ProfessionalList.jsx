@@ -1,5 +1,5 @@
 import React from 'react';
-import {professional} from './../../assets/data/professional';
+import {professional} from '../../assets/data/professional';
 import ProfessionalCard from './ProfessionalCard';
 
 const ProfessionalList = () => {
@@ -10,4 +10,4 @@ const ProfessionalList = () => {
   )
 }
 
-export default ProfessionalList
+export default ProfessionalList;
