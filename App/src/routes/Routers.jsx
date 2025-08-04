@@ -4,6 +4,7 @@ import { ToastContainer } from "react-toastify";
 
 import Main from "../pages/Main";
 import Home from "../pages/Home";
+import About from "../components/About/About";
 import Login from "../pages/Login";
 import Signup from "../pages/Signup";
 import Contact from "../pages/Contact";
@@ -15,6 +16,7 @@ import Adopt from "../components/Adopt/Adopt";
 import Quiz from "../components/Quiz/Quiz";
 import Game from "../components/Game/Crossword";
 import Proposal from "../components/Proposal/Proposal";
+
 
 function Routers() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
@@ -28,6 +30,7 @@ function Routers() {
         {/* App Pages */}
         <Route path="/main" element={<Main />} />
         <Route path="/home" element={<Home />} />
+        <Route path="/about" element={<About />} />
         <Route path="/professionals" element={<Professionals />} />
         <Route path="/professionals/:id" element={<ProfessionalDetails />} />
         <Route path="/login" element={<Login setIsAuthenticated={setIsAuthenticated} />} />
