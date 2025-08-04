@@ -4,13 +4,17 @@ import { ToastContainer } from "react-toastify";
 
 import Main from "../pages/Main";
 import Home from "../pages/Home";
-import Services from "../pages/Services";
 import Login from "../pages/Login";
 import Signup from "../pages/Signup";
 import Contact from "../pages/Contact";
 import Professionals from "../pages/Professionals/Professionals";
 import ProfessionalDetails from "../pages/Professionals/ProfessionalDetails";
 import Donate from "../components/Donate/Donate";
+import Profile from "../pages/Profile";
+import Adopt from "../components/Adopt/Adopt";
+import Quiz from "../components/Quiz/Quiz";
+import Game from "../components/Game/Crossword";
+import Proposal from "../components/Proposal/Proposal";
 
 function Routers() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
@@ -29,8 +33,12 @@ function Routers() {
         <Route path="/login" element={<Login setIsAuthenticated={setIsAuthenticated} />} />
         <Route path="/register" element={<Signup />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/services" element={<Services />} />
         <Route path="/donate" element={<Donate />} />
+        <Route path="/adopt" element={<Adopt />} />
+        <Route path="/quiz" element={<Quiz />} />
+        <Route path="/profile" element={<Profile />} />
+        <Route path="/game" element={<Game />} />
+        <Route path="/proposal" element={<Proposal />} />
       </Routes>
       
       <ToastContainer />
