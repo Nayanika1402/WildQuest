@@ -1,5 +1,5 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { ArrowRightCircle } from "lucide-react";
 import logo from "../assets/images/logo.png";
 import illustration from "../assets/images/main_help.svg";
@@ -32,19 +32,24 @@ const Main = () => {
             placeholder="Request Help"
             className="w-full px-4 py-3 border border-gray-300 rounded-full shadow-md focus:outline-none"
           />
-          <button className="absolute right-2 top-1/2 transform -translate-y-1/2 text-[#137f13]">
+          <button
+            onClick={() => navigate("/contact")}
+            className="absolute right-2 top-1/2 transform -translate-y-1/2 text-[#137f13]"
+            aria-label="Request Help"
+          >
             <ArrowRightCircle size={28} className="text-[#137f13]" />
           </button>
         </div>
 
         <h1 className="text-5xl font-extrabold text-gray-900 leading-tight">
           Protect wildlife, support conservation, and <br />
-          embark on a <span className="text-[#137f13]">WildQuest! 🐾</span>
+          embark on your{" "}
+          <span className="text-[#137f13]">WildQuest journey! 🐾</span>
         </h1>
 
         <p className="text-gray-700 mt-4 max-w-2xl text-lg">
-          Join our platform effortlessly and start making a <br />
-          difference in your community today.
+          Join our platform today to learn, engage, and make a meaningful impact
+          for endangered species and their habitats.
         </p>
 
         <button
@@ -99,9 +104,21 @@ const Main = () => {
         </div>
         <nav className="mt-4">
           <ul className="flex justify-center space-x-6 text-gray-700">
-            <li className="hover:text-black cursor-pointer">Home</li>
-            <li className="hover:text-black cursor-pointer">Adoption</li>
-            <li className="hover:text-black cursor-pointer">Contact</li>
+            <li>
+              <Link to="/home" className="hover:text-black cursor-pointer">
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link to="/adopt" className="hover:text-black cursor-pointer">
+                Adoption
+              </Link>
+            </li>
+            <li>
+              <Link to="/contact" className="hover:text-black cursor-pointer">
+                Contact
+              </Link>
+            </li>
           </ul>
         </nav>
         <p className="text-gray-500 text-sm mt-4">

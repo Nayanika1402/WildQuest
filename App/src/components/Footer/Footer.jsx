@@ -6,19 +6,19 @@ import {AiFillYoutube, AiFillGithub, AiOutlineInstagram} from 'react-icons/ai';
 
 const socialLinks=[
   {
-    path:"",
+    path:"https://www.youtube.com/c/wildquest",
     icon:<AiFillYoutube className='group-hover:text-white w-4 h-5' />,
   },
   {
-    path:"",
+    path:"https://github.com/Nayanika1402/WildQuest",
     icon:<AiFillGithub  className='group-hover:text-white w-4 h-5' />,
   },
   {
-    path:"",
+    path:"https://www.instagram.com/wildquest_/",
     icon:<AiOutlineInstagram className='group-hover:text-white w-4 h-5' />,
   },
   {
-    path:"",
+    path:"https://www.linkedin.com/company/wildquest/?originalSubdomain=bs",
     icon:<RiLinkedinFill className='group-hover:text-white w-4 h-5' />,
   },
 ];
@@ -28,7 +28,7 @@ const quickLinks01 = [
     display:"Home",
   },
   {
-    path: "/",
+    path: "/about",
     display:"About",
   },
   {
@@ -36,17 +36,17 @@ const quickLinks01 = [
     display:"Services",
   },
   {
-    path: "/donate",
+    path: "/adopt",
     display:"Adoption",
   },
 ];
 const quickLinks02 = [
   {
-    path: "/games",
+    path: "/game",
     display:"Play Games",
   },
   {
-    path: "/donate",
+    path: "/adopt",
     display:"Go for Adoption",
   },
   {
@@ -54,13 +54,13 @@ const quickLinks02 = [
     display:"Solve Quiz",
   },
   {
-    path: "/",
+    path: "/contact",
     display:"Get a Opinion",
   },
 ];
 const quickLinks03 = [
   {
-    path: "/",
+    path: "/donate",
     display:"Donate",
   },
   {

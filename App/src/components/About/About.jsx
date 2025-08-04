@@ -20,7 +20,7 @@ const About = () => {
 
         {/* ========= about content ======== */}
         <div className="w-full lg:w-1/2 xl:w-[670px] order-1 lg:order-2">
-        <h2 className="heading">About Us🐘</h2>
+        <h2 className="heading" id='about-us'>About Us🐘</h2>
         <p className ="text_para">Whether you're a wildlife enthusiast, student, or conservationist, WildQuest gives you the tools to learn, engage, and contribute to saving endangered species. 
           Together, we can create a world where no species is left behind.
         </p>
@@ -28,7 +28,7 @@ const About = () => {
           Many people want to help but don’t know where to start. We make conservation fun, accessible, and impactful—whether you’re donating, playing an educational game,
            or learning how to reduce your environmental footprint.
         </p>
-        <Link to='/'>
+        <Link to='/contact'>
         <button className="btn">Learn More</button></Link>
         </div>
     </div>

@@ -26,7 +26,7 @@ const Home = ({ setIsAuthenticated }) => {
   return ( <>
    {/* ========= hero section ========== */}
 
-   <section className="hero_section pt-[60px] 2xl:h-[800px]">
+   <section className="hero_section pt-[60px] 2xl:h-[800px]" id='hero-section'>
     <div className="container">
       <div className ="flex flex-col lg:flex-row gap-[90px] items-center justify-between">
 
@@ -37,8 +37,9 @@ const Home = ({ setIsAuthenticated }) => {
             <h1 className ="text-[36px] leading-[46px] text-headingColor font-[800] first-letter:md:text-ellipsis-[60px] first-letter:md:leading-[70px]">Explore. Learn. Protect🦁🐢🐼
             </h1>
             <p className="text_para">WildQuest is an interactive platform with quizzes, games, and articles to raise awareness about endangered wildlife and conservation.</p>
-
-               <button className = "btn">Explore More</button>
+      
+             <button className = "btn">Explore More</button>
+        
           </div>
 
           {/* ========== hero counter =========== */}
@@ -90,7 +91,7 @@ const Home = ({ setIsAuthenticated }) => {
    { /* ============= hero section end ============ */}
 
    <section>
-    <div className= "container">
+    <div className= "container" id='explore-section'>
       <div className="lg:w-[470px] mx-auto">
         <h2 className='heading text-center'>
           Our Wild Mission🌴
@@ -114,7 +115,7 @@ const Home = ({ setIsAuthenticated }) => {
                 Make a difference by donating to protect endangered animals and their habitats.
                 </p>
 
-                <Link to='/professionals' className="w-[44px] h-[44px] rounded-full border border-solid border-[#181A1E] mt-[30px] mx-auto
+                <Link to='/donate' className="w-[44px] h-[44px] rounded-full border border-solid border-[#181A1E] mt-[30px] mx-auto
                 flex items-center justify-center group hover:bg-[#137f13] hover:border-none">
                   <BsArrowRight className ="group-hover:text-white w-6 h-5"/>
                 </Link>
@@ -134,7 +135,7 @@ const Home = ({ setIsAuthenticated }) => {
                 Test your knowledge about wildlife with fun and educational quizzes.
                 </p>
 
-                <Link to='/professionals' className="w-[44px] h-[44px] rounded-full border border-solid border-[#181A1E] mt-[30px] mx-auto
+                <Link to='/quiz' className="w-[44px] h-[44px] rounded-full border border-solid border-[#181A1E] mt-[30px] mx-auto
                 flex items-center justify-center group hover:bg-[#137f13] hover:border-none">
                   <BsArrowRight className ="group-hover:text-white w-6 h-5"/>
                 </Link>
@@ -154,7 +155,7 @@ const Home = ({ setIsAuthenticated }) => {
                 Explore the wild through exciting games that promote conservation awareness.
                 </p>
 
-                <Link to='/professionals' className="w-[44px] h-[44px] rounded-full border border-solid border-[#181A1E] mt-[30px] mx-auto
+                <Link to='/games' className="w-[44px] h-[44px] rounded-full border border-solid border-[#181A1E] mt-[30px] mx-auto
                 flex items-center justify-center group hover:bg-[#137f13] hover:border-none">
                   <BsArrowRight className ="group-hover:text-white w-6 h-5"/>
                 </Link>
