@@ -1,0 +1,28 @@
+name: Self-assign on issue comment
+on:
+  issue_comment:
+    types:
+      - created
+
+jobs:
+  assign:
+    if: contains(github.event.comment.body, '/assign')
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Assign user to issue
+        uses: actions/github-script@v4
+        with:
+          github-token: ${{ secrets.MY_TOKEN }}
+          script: |
+            const issueNumber = context.issue.number;
+            const assignee = context.payload.comment.user.login;
+
+            await github.issues.addAssignees({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issueNumber,
+              assignees: [assignee]
+            });
+
+            console.log(`Assigned @${assignee} to issue #${issueNumber}`);
