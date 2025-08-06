@@ -32,7 +32,7 @@ Deployed using:
 
 ## 🛠️ Getting Started for Contributors
 
-We welcome contributions to RuralRetreats! Follow the steps below to get started:
+We welcome contributions to ! Follow the WildQuest steps below to get started:
 
 1. **Fork the Repository**  
    - Click on the "Fork" button at the top right corner of the GitHub repository page.
@@ -41,7 +41,7 @@ We welcome contributions to RuralRetreats! Follow the steps below to get started
    - Use the following command to clone the forked repository to your local machine:
      
      ```bash
-     git clone https://github.com/Nayanika1402/RuRal-ReTreats.git
+     git clone https://github.com/Nayanika1402/WildQuest.git
      ```
 
 3. **Create a Branch**
@@ -79,7 +79,7 @@ We welcome contributions to RuralRetreats! Follow the steps below to get started
 
 This project is a part of **GirlScript Summer of Code 2025 (GSSoC '25)**.
 
-![GSSoC '25 Logo](https://tse1.mm.bing.net/th/id/OIP.h7OBAsph2Bb1K4W9C6jiLQHaCS?pid=Api&P=0&h=180)  <!-- ← update with real link -->
+![GSSoC '25 Logo](https://tse1.mm.bing.net/th/id/OIP.h7OBAsph2Bb1K4W9C6jiLQHaCS?pid=Api&P=0&h=180) 
 
 We welcome enthusiastic contributors from GSSoC ’25 and beyond to help improve and expand the project.
 
