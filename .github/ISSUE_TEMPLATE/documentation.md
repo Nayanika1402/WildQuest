@@ -37,7 +37,7 @@ Thank you for helping us improve our documentation! Please fill out the details 
 
 - [ ] I’ve checked that this issue doesn’t already exist in open issues.
 - [ ] I’ve reviewed the current documentation related to this topic.
-- [ ] I’ve followed the [Code of Conduct](../CODE_OF_CONDUCT.md).
+- [ ] I’ve followed the [Code of Conduct](https://github.com/Nayanika1402/WildQuest/blob/main/CODE_OF_CONDUCT.md).
 - [ ] I’ve read and followed the [Contributing Guidelines](../CONTRIBUTING.md).
 - [ ] I am a participant of GSSoC’25 (optional).
 
