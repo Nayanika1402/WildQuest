@@ -23,4 +23,4 @@ jobs:
             Thank you for your contribution and being part of our project! 💫  
             Keep coding and keep shining! 🌟`;
 
-            await github.issues.createComment({ owner, repo, issue_number: prNumber, body: commentBody });
+            await github.issues.createComment({ owner, repo, issue_number: prNumber, body: commentBody });# trigger

@@ -21,4 +21,4 @@ jobs:
             Happy coding!✨ We hope to see you again soon!❣️`;
 
             await github.issues.createComment({ owner, repo, issue_number: number, body: commentBody });
-            console.log(`Commented on the issue: ${commentBody}.`);
+            console.log(`Commented on the issue: ${commentBody}.`);# trigger
