@@ -9,26 +9,33 @@ labels: bug
 <!-- Clearly describe the issue you encountered. -->
 
 ## 🔄 Steps to Reproduce  
-1. **Go to:** "..."  
-2. **Click on:** "..."  
-3. **Expected Outcome:** "..."  
-4. **Actual Outcome:** "..."  
+1. Go to: "..."  
+2. Click on: "..."
+3. Observe the bug: `...`
 
 ## ✅ Expected Behavior  
-<!-- Describe what should happen instead. -->
+
+> What should have happened instead?
+
+## ❌ Actual Behavior
+
+> What actually happened?
 
 ## 📸 Screenshots (if applicable)  
-<!-- Add screenshots to better illustrate the issue. -->
+
+> Add screenshots, screen recordings, or logs that show the problem:
 
 ## 🛠️ Possible Fix (if known)  
-<!-- Suggest any fixes or workarounds you might know. -->
 
-## 📌 System Information  
-- **Operating System:** (Windows/macOS/Linux)  
-- **Browser/Device:** (Chrome, Firefox, Safari, etc.)  
+> Your suggestions to fix the particular problem.
+
+## 📋 Checklist Before Submitting
+
+- [ ] I’ve checked that this issue doesn’t already exist in open issues.
+- [ ] I’ve reviewed the current documentation related to this topic.
+- [ ] I’ve followed the [Code of Conduct](https://github.com/Nayanika1402/WildQuest/blob/main/CODE_OF_CONDUCT.md).
+- [ ] I’ve read and followed the [Contributing Guidelines](https://github.com/Nayanika1402/WildQuest/blob/main/README.md).
+- [ ] I am a participant of GSSoC’25 (optional).
 
 ## 💡 Additional Context (if any)  
 <!-- Share any extra details that could help resolve the issue. -->
-
-## 🏆 Are you contributing under an open-source program?  
-<!-- If yes, mention the program name here. -->
