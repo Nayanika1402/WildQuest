@@ -1,40 +1,24 @@
 ---
-
-name: Feature request
-
-about: Suggest an idea for this project
-
-title: "\[FEATURE] "
-
-labels: enhancement
-
-assignees: ""
-
+name: ✨ Feature Request
+about: Suggest a new feature or improvement for the website
+title: "[Feature] <Brief description>"
+labels: enhancement, feature request
 ---
 
+## ✨ Feature Overview  
+<!-- Clearly describe the feature you are requesting. What problem does it solve? How will it improve the website? -->
 
+## 🚀 Why is this Feature Needed?  
+<!-- Explain the importance of this feature and how it benefits users or enhances the experience. -->
 
-\*\*Is your feature request related to a problem? Please describe.\*\*
+## 🎨 Visuals (If applicable)  
+<!-- Add screenshots, mockups, or design references to illustrate your idea. -->
 
-A clear and concise description of what the problem is. Ex: I'm always frustrated when \[...]
+## 🔧 Possible Implementation (Optional)  
+<!-- Suggest how this feature could be implemented, if you have any thoughts on it. -->
 
+## 💡 Additional Notes  
+<!-- Any extra details or related information that might be useful. -->
 
-
-\*\*Describe the solution you'd like\*\*
-
-A clear and concise description of what you want to happen.
-
-
-
-\*\*Describe alternatives you've considered\*\*
-
-A clear and concise description of any alternative solutions or features you've considered.
-
-
-
-\*\*Additional context\*\*
-
-Add any other context or screenshots about the feature request here.
-
-
-
+## 🏆 Are you contributing under any open-source program?  
+<!-- If yes, mention the program name (e.g., GSoC, Hacktoberfest, etc.). -->
