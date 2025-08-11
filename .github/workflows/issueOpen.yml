@@ -1,0 +1,25 @@
+name: Issue opened comment
+on:
+  issues:
+    types:
+      - opened
+
+jobs:
+  comment:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Issue open
+        uses: actions/github-script@v4
+        with:
+          github-token: ${{ secrets.MY_TOKEN }}
+          script: |
+            const { owner, repo, number } = context.issue;
+            const commentauthor = context.payload.issue.user.login;
+            const commentBody = `Hi @${commentauthor}! 👋  
+            Thank you for opening this issue. Our team will review it soon. Meanwhile, please make sure you’ve followed the issue template correctly and provided all the necessary details.  
+            We're excited to collaborate with you under GSSoC'25 🚀  
+            Happy Coding! 💖`;
+
+            await github.issues.createComment({ owner, repo, issue_number: number, body: commentBody });
+            console.log(`Commented on the issue: ${commentBody}.`);

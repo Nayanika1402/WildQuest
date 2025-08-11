@@ -1,0 +1,26 @@
+name: PR merged comment
+on:
+  pull_request:
+    types:
+      - closed
+
+jobs:
+  comment:
+    runs-on: ubuntu-latest
+    if: github.event.pull_request.merged == true
+
+    steps:
+      - name: PR merged
+        uses: actions/github-script@v4
+        with:
+          github-token: ${{ secrets.MY_TOKEN }}
+          script: |
+            const { owner, repo } = context.repo;
+            const prNumber = context.payload.pull_request.number;
+            const prAuthor = context.payload.pull_request.user.login;
+            const commentBody = `Congratulations @${prAuthor}! 🎉  
+            Your pull request has been successfully merged.  
+            Thank you for your contribution and being part of our project! 💫  
+            Keep coding and keep shining! 🌟`;
+
+            await github.issues.createComment({ owner, repo, issue_number: prNumber, body: commentBody });

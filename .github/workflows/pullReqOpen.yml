@@ -1,0 +1,24 @@
+name: PR opened comment
+on:
+  pull_request:
+    types:
+      - opened
+
+jobs:
+  comment:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: PR open
+        uses: actions/github-script@v4
+        with:
+          github-token: ${{ secrets.MY_TOKEN }}
+          script: |
+            const { owner, repo, number } = context.issue;
+            const prAuthor = context.payload.pull_request.user.login;
+            const commentBody = `Hey @${prAuthor}! 🎉  
+            Thanks for submitting your PR! Our maintainer will review it shortly.  
+            Please ensure your PR follows the contributing guidelines.  
+            Keep contributing and growing! 🌱✨`;
+
+            await github.issues.createComment({ owner, repo, issue_number: number, body: commentBody });
