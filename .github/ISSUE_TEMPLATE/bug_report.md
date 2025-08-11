@@ -1,54 +1,34 @@
 ---
-
-name: Bug report
-
-about: Create a report to help us improve
-
-title: "[BUG] "
-
+name: 🐛 Bug Report
+about: Help us improve by reporting issues
+title: "[BUG] <Brief Description>"
 labels: bug
-
-assignees: ""
-
 ---
 
+## 🐛 Bug Description  
+<!-- Clearly describe the issue you encountered. -->
 
+## 🔄 Steps to Reproduce  
+1. **Go to:** "..."  
+2. **Click on:** "..."  
+3. **Expected Outcome:** "..."  
+4. **Actual Outcome:** "..."  
 
-\*\*Describe the bug\*\*
+## ✅ Expected Behavior  
+<!-- Describe what should happen instead. -->
 
-A clear and concise description of what the bug is.
+## 📸 Screenshots (if applicable)  
+<!-- Add screenshots to better illustrate the issue. -->
 
+## 🛠️ Possible Fix (if known)  
+<!-- Suggest any fixes or workarounds you might know. -->
 
+## 📌 System Information  
+- **Operating System:** (Windows/macOS/Linux)  
+- **Browser/Device:** (Chrome, Firefox, Safari, etc.)  
 
-\*\*To Reproduce\*\*
+## 💡 Additional Context (if any)  
+<!-- Share any extra details that could help resolve the issue. -->
 
-Steps to reproduce the behavior:
-
-1\. Go to '...'
-
-2\. Click on '...'
-
-3\. Scroll down to '...'
-
-4\. See error
-
-
-
-\*\*Expected behavior\*\*
-
-A clear and concise description of what you expected to happen.
-
-
-
-\*\*Screenshots\*\*
-
-If applicable, add screenshots to help explain your problem.
-
-
-
-\*\*Additional context\*\*
-
-Add any other context about the problem here.
-
-
-
+## 🏆 Are you contributing under an open-source program?  
+<!-- If yes, mention the program name here. -->
