@@ -14,7 +14,9 @@ import Donate from "../components/Donate/Donate";
 import Profile from "../pages/Profile";
 import Adopt from "../components/Adopt/Adopt";
 import Quiz from "../components/Quiz/Quiz";
-import Game from "../components/Game/Crossword";
+import Gamelist from "../components/Game/Gamelist";
+import Crossword from "../components/Game/Crossword";
+import Spritegame from "../components/Game/SpriteGame";
 import Proposal from "../components/Proposal/Proposal";
 
 
@@ -40,7 +42,10 @@ function Routers() {
         <Route path="/adopt" element={<Adopt />} />
         <Route path="/quiz" element={<Quiz />} />
         <Route path="/profile" element={<Profile />} />
-        <Route path="/game" element={<Game />} />
+        <Route path="/game" element={<Gamelist/>}>
+          <Route path="crossword" element={<Crossword/>} />
+          <Route path="spritegame" element={<Spritegame />} />
+        </Route>
         <Route path="/proposal" element={<Proposal />} />
       </Routes>
       
